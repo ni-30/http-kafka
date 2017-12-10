@@ -1,0 +1,26 @@
+{
+  "groupId": "my_group",
+  "bootstrapServers": "localhost:9092",
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "http": {
+    "host": "127.0.0.1",
+    "publisher": {
+      "port": 8080,
+      "path": "/kfk_producer"
+    },
+    "processor": {
+      "port": 8081,
+      "path": "/kfk_processor"
+    }
+  },
+  "consumers": {
+    "topics": [
+      {
+        "topic": "test"
+      }
+    ]
+  }
+}

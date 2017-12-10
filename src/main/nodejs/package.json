@@ -1,0 +1,27 @@
+{
+  "name": "kafka-processor",
+  "version": "1.0.0",
+  "description": "kafka event processor using HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "event",
+    "processor",
+    "consumer",
+    "producer",
+    "message",
+    "pub",
+    "sub"
+  ],
+  "author": "nitish_aryan <iitd.nitish@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "querystring": "^0.2.0"
+  }
+}
